@@ -12,6 +12,28 @@ img {
   font-weight: 900;
 }
 
+
+/* Solution */
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.text, .plant {
+  width: 200px;
+}
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
